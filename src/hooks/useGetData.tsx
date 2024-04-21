@@ -1,5 +1,5 @@
 import RickAndMortyAPIServices from '@/services/RickAndMortyAPI.services'
-import { Data, Result, RickAndMortyAPI } from '@/types/types'
+import type { RickAndMortyAPI } from '@/types/types'
 import { useState, useEffect } from 'react'
 
 export default function useGetData(
